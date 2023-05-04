@@ -1,3 +1,3 @@
-module github.com/bigveezus/pokedexcli
+module github.com/bigveezus/my-cli
 
 go 1.17
