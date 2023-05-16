@@ -1,5 +1,5 @@
 Nothing extra to see here.
-Just clone the project & run
+On a MacOS/Linux system, just clone the project & run
 
 ```bash
  ./my-cli
