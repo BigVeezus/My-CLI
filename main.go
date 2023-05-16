@@ -1,15 +1,16 @@
 package main
 
 import (
-	"time"
-
 	"github.com/bigveezus/my-cli/internal/pokeapi"
 )
 
 func main() {
-	pokeClient := pokeapi.NewClient(5 * time.Second)
+	pokeapiClient := pokeapi.NewClient()
 	cfg := &config{
-		pokeClient: pokeClient,
+		pokeapiClient: pokeapiClient,
 	}
+
+	
+
 	startRepl(cfg)
 }

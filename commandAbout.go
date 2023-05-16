@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func commandAbout() error{
+func commandAbout(cfg *config) error{
 	github := "https://github.com/bigveezus"
 	// mailito := "elvis.osujic@gmail.com"
 	fmt.Println("=========================================================")
